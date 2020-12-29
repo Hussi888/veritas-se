@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/toc_margin_left_right"
+    android:layout_marginRight="@dimen/toc_margin_left_right">
+
+    <ImageView
+        android:id="@+id/toc_editor_image"
+        android:layout_width="@dimen/toc_editors_image_width"
+        android:layout_height="@dimen/toc_editors_image_height"
+        android:src="@drawable/editors_photo"
+        android:paddingTop="@dimen/toc_editor_image_padding_top"
+        android:paddingBottom="@dimen/toc_editor_image_padding_bottom"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/toc_editor_image_description" />
+
+    <TextView
+        android:text="@string/toc_editors_name"
+        android:id="@+id/toc_editors_name"
+        android:paddingTop="@dimen/toc_editors_name_padding"
+        android:paddingBottom="@dimen/toc_editors_name_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+        android:layout_below="@+id/toc_editor_image" />
+
+    <TextView
+        android:text="@string/toc_editors_letter"
+        android:id="@+id/toc_editors_letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/toc_editors_letter_padding"
+        android:paddingBottom="@dimen/toc_editors_letter_padding"
+        android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+        android:layout_below="@+id/toc_editors_name" />
+
+</RelativeLayout>

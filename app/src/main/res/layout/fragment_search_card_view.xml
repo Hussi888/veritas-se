@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CardView -->
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/cardview_light_background"
+    android:layout_marginTop="@dimen/search_margin"
+    android:layout_marginLeft="@dimen/search_article_margin_left_right"
+    android:layout_marginRight="@dimen/search_article_margin_left_right"
+    card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/search_article_image"
+            android:background="@color/accent_material_dark"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/toc_article_image_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toc_article_image_height"
+            android:src="@drawable/loading_image" />
+
+        <TextView
+            android:text="@string/search_article_title"
+            android:id="@+id/search_article_title"
+            android:textSize="@dimen/search_article_font_size_title"
+            android:textColor="@color/primary_text_default_material_light"
+            android:paddingTop="@dimen/search_article_padding_container_top_bottom"
+            android:paddingBottom="@dimen/search_article_padding_top_bottom"
+            android:paddingLeft="@dimen/search_article_padding_left_right"
+            android:paddingRight="@dimen/search_article_padding_left_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_article_image" />
+
+        <TextView
+            android:text="@string/search_article_teaser"
+            android:id="@+id/search_article_teaser"
+            android:textColor="@color/bright_foreground_disabled_material_light"
+            android:paddingTop="0dp"
+            android:paddingRight="@dimen/search_article_padding_left_right"
+            android:paddingBottom="@dimen/search_article_padding_top_bottom"
+            android:paddingLeft="@dimen/search_article_padding_left_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_article_title" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

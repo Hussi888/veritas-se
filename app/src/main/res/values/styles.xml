@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+        <!-- NI app branding color for the app bar -->
+        <item name="colorPrimaryDark">@drawable/statusbar</item>
+        <!-- Actionbar -->
+        <item name="colorPrimary">@drawable/actionbar_background</item>
+
+    </style>
+
+    <!-- Article theme -->
+    <style name="ArticleTheme" parent="Theme.AppCompat.Light">
+
+        <item name="android:background">@drawable/article_background</item>
+
+    </style>
+
+    <!-- Colours -->
+    <drawable name="statusbar">#5a595b</drawable>
+    <drawable name="actionbar_background">#5a595b</drawable>
+    <drawable name="article_background">#FFFFFF</drawable>
+
+</resources>

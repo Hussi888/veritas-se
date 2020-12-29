@@ -1,0 +1,64 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="au.com.newint.newinternationalist.ArticleActivity.ArticleFragment">
+
+        <TextView
+            android:id="@+id/article_title"
+            android:textSize="26sp"
+            android:text="@string/article_title"
+            android:textColor="@color/primary_text_default_material_light"
+            android:paddingTop="@dimen/article_margin_top"
+            android:paddingLeft="@dimen/article_margin_left_right"
+            android:paddingRight="@dimen/article_margin_left_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/article_teaser"
+            android:textSize="16sp"
+            android:text="@string/article_teaser"
+            android:layout_marginTop="@dimen/article_teaser_margin_top"
+            android:paddingLeft="@dimen/article_margin_left_right"
+            android:paddingRight="@dimen/article_margin_left_right"
+            android:textColor="@color/bright_foreground_disabled_material_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/article_title" />
+
+        <au.com.newint.newinternationalist.LinearLayoutLineBreak
+            android:id="@+id/article_categories_linear_layout"
+            android:paddingTop="@dimen/article_categories_margin_top"
+            android:paddingLeft="@dimen/article_margin_left_right"
+            android:paddingRight="@dimen/article_margin_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/article_teaser">
+
+        </au.com.newint.newinternationalist.LinearLayoutLineBreak>
+
+        <WebView
+            android:id="@+id/article_body"
+            android:layout_marginTop="@dimen/article_body_margin_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/article_categories_linear_layout" />
+
+        <ProgressBar
+            android:id="@+id/article_body_loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignTop="@+id/article_body"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</ScrollView>

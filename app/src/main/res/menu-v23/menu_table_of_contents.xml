@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="au.com.newint.newinternationalist.TableOfContentsActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/download_magazine"
+        android:title="@string/download_magazine"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/increase_font_size"
+        android:title="@string/increase_font_size"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/default_font_size"
+        android:title="@string/default_font_size"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/decrease_font_size"
+        android:title="@string/decrease_font_size"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        android:title="@string/action_share_toc"
+        app:showAsAction="ifRoom"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+
+</menu>

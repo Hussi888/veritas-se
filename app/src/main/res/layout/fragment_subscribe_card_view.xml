@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CardView -->
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subscribe_card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/cardview_light_background"
+    android:layout_marginTop="@dimen/toc_margin"
+    android:layout_marginLeft="@dimen/toc_margin"
+    android:layout_marginRight="@dimen/toc_margin"
+    card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+    <RelativeLayout
+        android:id="@+id/subscribe_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/subscribe_product_image"
+            android:layout_width="@dimen/subscribe_cover_width"
+            android:layout_height="@dimen/subscribe_cover_height"
+            android:src="@drawable/home_cover"
+            android:layout_margin="@dimen/toc_article_padding_left_right"
+            android:contentDescription="@string/toc_cover_description"/>
+
+        <TextView
+            android:text="@string/subscribe_product_title"
+            android:id="@+id/subscribe_product_title"
+            android:textSize="@dimen/subscribe_product_title_font_size"
+            android:textColor="@color/primary_text_default_material_light"
+            android:paddingTop="@dimen/toc_article_padding_container_top_bottom"
+            android:paddingBottom="@dimen/toc_article_title_padding_bottom"
+            android:paddingRight="@dimen/toc_article_padding_left_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/subscribe_product_image"/>
+
+        <TextView
+            android:text="@string/subscribe_product_description"
+            android:id="@+id/subscribe_product_description"
+            android:textColor="@color/bright_foreground_disabled_material_light"
+            android:paddingTop="0dp"
+            android:paddingRight="@dimen/toc_article_padding_left_right"
+            android:paddingBottom="@dimen/toc_article_padding_top_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subscribe_product_title"
+            android:layout_toRightOf="@+id/subscribe_product_image"/>
+
+        <TextView
+            android:text="@string/subscribe_product_price"
+            android:id="@+id/subscribe_product_price"
+            android:textColor="@color/primary_text_default_material_light"
+            android:paddingTop="0dp"
+            android:paddingRight="@dimen/toc_article_padding_left_right"
+            android:paddingBottom="@dimen/toc_article_padding_top_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subscribe_product_description"
+            android:layout_toRightOf="@+id/subscribe_product_image"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

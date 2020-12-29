@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">New Internationalist</string>
+    <string name="app_label">Newint</string>
+
+    <!-- Home -->
+    <string name="home_cover">Cover of the latest edition of New Internationalist magazine</string>
+    <string name="home_subscribe">Subscribe</string>
+    <string name="home_magazine_archive">Magazines</string>
+    <string name="home_login">Login</string>
+    <string name="home_logged_in">Logged in</string>
+    <string name="home_subscribed">Thanks for subscribing</string>
+
+    <!-- Settings -->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="preferences_category_title">New Internationalist app settings</string>
+    <string name="allow_anonymous_statistics_switch_title">Allow anonymous statistics</string>
+    <string name="show_help_alerts_switch_title">Show help alerts</string>
+
+    <!-- About -->
+    <string name="action_about">About</string>
+    <string name="title_activity_about">About</string>
+    <string name="version_title">Version</string>
+    <string name="about_version">1.0.0 (1)</string>
+
+    <!-- Magazine Archive -->
+    <string name="title_activity_magazine_archive">Magazine Archive</string>
+
+    <!-- Table of Contents -->
+    <string name="toc_activity_title">Table of Contents</string>
+    <string name="toc_article_title">Article title</string>
+    <string name="toc_article_teaser">Article teaser</string>
+    <string name="toc_article_categories">Category, Category</string>
+    <string name="toc_issue_number_date">000 - Date, Year</string>
+    <string name="toc_cover_description">Magazine cover image</string>
+    <string name="toc_editor_image_description">Photo of the editor of this magazine</string>
+    <string name="toc_editors_letter">Editors letter.</string>
+    <string name="toc_editors_name">Edited by:\\nEditor\'s name</string>
+    <string name="action_share_toc">Share this issue</string>
+    <string name="download_magazine">Off-line reading</string>
+
+    <!-- Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email or username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_incorrect_password">Sorry, your username/email or password is incorrect.</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_article">ArticleActivity</string>
+
+    <!-- Article -->
+    <string name="article_title">Article title</string>
+    <string name="article_teaser">Article teaser</string>
+    <string name="article_categories">Category, category</string>
+    <string name="login_dialog_title_article_body">Subscribe?</string>
+    <string name="login_dialog_message_article_body">It doesn\'t look like you\'re a subscriber or if you are, perhaps your subscription has expired or you haven\'t logged in yet. What would you like to do?</string>
+    <string name="login_dialog_ok_button">Login</string>
+    <string name="login_dialog_cancel_button">Cancel</string>
+    <string name="no_internet_dialog_title_article_body">No internet?</string>
+    <string name="no_internet_dialog_message_article_body">The app doesn\'t seem to be able to connect to our server, do you have internet access there? You\'ll still be able to read articles that you\'ve already downloaded to your device.</string>
+    <string name="no_internet_dialog_ok_button">OK</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search for an article</string>
+    <string name="title_activity_search">Search</string>
+    <string name="action_search">Search</string>
+    <string name="search_term_temporary">Search term...</string>
+    <string name="search_results_header">xxx - Magazine title</string>
+    <string name="search_article_title">Article title</string>
+    <string name="search_article_teaser">Teaser</string>
+    <string name="search_article_categories">Categories</string>
+    <string name="search_cover_description">An image of the magazine cover that the search results below belong to.</string>
+
+    <!-- Categories -->
+    <string name="home_categories">Categories</string>
+    <string name="title_activity_categories">Categories</string>
+
+    <!-- Category -->
+    <string name="category_header">Category header</string>
+    <string name="category_name">Category name</string>
+    <string name="title_activity_category">Category</string>
+
+    <!-- Category -->
+    <string name="title_activity_image">Image</string>
+
+    <!-- Image -->
+    <string name="image_url">Image url</string>
+    <string name="toc_article_image_description">The featured image for this article</string>
+
+    <!-- Subscribe -->
+    <string name="title_activity_subscribe">Subscribe / Purchase</string>
+    <string name="subscribe_product_title">Product title</string>
+    <string name="subscribe_product_description">Product description</string>
+    <string name="subscribe_product_price">$0.00</string>
+    <string name="subscribe_header_product_type">Product type</string>
+    <string name="subscribe_footer_restore">Restore purchases</string>
+    <string name="subscribe_already_purchased_title">Already purchased</string>
+    <string name="subscribe_already_purchased_message">Looks like you\'ve already purchased this item! You don\'t need to purchase it again.</string>
+    <string name="subscribe_already_purchased_cancel_button">OK</string>
+    <string name="subscribe_loading_progress_title">Loading...</string>
+    <string name="subscribe_loading_progress_message">Loading the current subscriptions and magazines available as in-app purchases.</string>
+    <string name="subscribe_already_purchased_read_issue_button">Read this issue</string>
+    <string name="login_dialog_purchase_button">Subscribe</string>
+    <string name="image_zoom_default_title">Back</string>
+    <string name="toc_dialog_delete_cache_message">Would you like to download this magazine in full to read off-line? Or would you like to delete the cached images to free up some space on your device (the magazine will still be on your device)?</string>
+    <string name="toc_dialog_delete_cache_title">Download/delete?</string>
+    <string name="toc_dialog_delete_cache_ok_button">Delete</string>
+    <string name="toc_dialog_delete_cache_cancel_button">Cancel</string>
+    <string name="toc_dialog_download_zip_button">Download</string>
+    <string name="zip_download_dialog_title">Download failed!</string>
+    <string name="zip_download_dialog_message">Sorry, something went wrong with the download. The error was: </string>
+    <string name="zip_download_dialog_ok_button">OK</string>
+    <string name="zip_download_dialog_email_dev_button">Email us</string>
+    <string name="zip_download_dialog_email_subject">Android app magazine download failed</string>
+    <string name="zip_download_dialog_email_body">Hi, the magazine download failed with errors:</string>
+    <string name="zip_download_dialog_email_chooser">Send email</string>
+    <string name="zip_download_success_dialog_title">Complete!</string>
+    <string name="zip_download_success_dialog_message">This magazine has finished downloading and is on your device for ready for reading now or off-line.</string>
+    <string name="article_link_loading_progress_title">Loading...</string>
+    <string name="article_link_loading_progress_message">We\'re downloading this article for you now, shouldn\'t be too long.</string>
+    <string name="parse_id_dialog_title">Installation ID</string>
+    <string name="parse_id_dialog_ok_button">OK</string>
+    <string name="categories_preload_articles_loading_progress_title">Loading...</string>
+    <string name="categories_preload_articles_loading_progress_message">Downloading the metadata for all of the articles on our server. This might take a little while...</string>
+    <string name="categories_loading_progress_title">Loading...</string>
+    <string name="categories_loading_progress_message">Generating categories from all of the articles you\'ve read or downloaded to your device. The more magazines you read, the more articles will turn up in these categories.</string>
+    <string name="search_loading_progress_title">Searching...</string>
+    <string name="search_loading_progress_message">Searching through the articles on your device for the search term(s) you entered.</string>
+    <string name="article_guest_pass_loading_title">Generating guest pass...</string>
+    <string name="article_guest_pass_loading_message">Creating a guest pass for this article so that friends who aren\'t subscribers will be able to read it.</string>
+    <string name="toc_category_name">Category name</string>
+    <string name="allow_anonymous_statistics_key">allow_anonymous_statistics</string>
+    <string name="show_help_alerts_key">show_help_alerts</string>
+    <string name="home_title">Home</string>
+    <string name="app_launched_analytics">App launched</string>
+    <string name="preferences_manage_subscription">Manage your subscription</string>
+    <string name="pref_key_storage_settings">pref_key_storage_settings</string>
+    <string name="preferences_app_link_key">preferences_app_link</string>
+    <string name="preferences_app_link_title">Google Play Subscription</string>
+    <string name="preferences_app_link_summary">To manage your Google Play subscription, tap here and you\'ll be taken to the Google Play store.</string>
+    <string name="pref_subscriptions">pref_subscriptions</string>
+    <string name="preferences_rails_link_key">preferences_rails_link_key</string>
+    <string name="preferences_rails_link_title">NI Subscription</string>
+    <string name="preferences_rails_link_summary">To manage your New Internationalist digital subscription, tap here and you\'ll be taken to the New Internationalist digital edition.</string>
+    <string name="preferences_rails_forgot_key">preferences_rails_forgot_key</string>
+    <string name="preferences_rails_forgot_title">Forgot your password?</string>
+    <string name="preferences_rails_forgot_summary">If you\'ve forgotten your password for your NI digital subscription login, tap here to go to the page where you can reset it.</string>
+    <string name="login_forgotten_password">Forgot your password?</string>
+    <string name="login_sign_up">Sign-up</string>
+    <string name="preload_articles_failed_dialog_title">Error!</string>
+    <string name="preload_articles_failed_dialog_message">Do you have internet access? I\'m very sorry, but it looks like there\'s some trouble connecting with our server. You can either try again or send us an email to let us know.</string>
+    <string name="preload_articles_failed_dialog_email_subject">Android app error - preload articles failed...</string>
+    <string name="preload_articles_dialog_email_body">Hi, the preload articles on the table of contents failed:</string>
+    <string name="login_error_server_error">Sorry, it looks like our server has a problem. Please try again later.</string>
+    <string name="login_error_no_internet">It doesn\'t look like you have internet access.</string>
+    <string name="categories_refresh">Reload articles for each category.</string>
+    <string name="categories_no_items">When you read a magazine, the articles will be categorised here. To categorise all of the available articles from our website, tap the refresh button in the menu bar.</string>
+    <string name="last_article_dialog_title">Last article for this magazine</string>
+    <string name="last_article_dialog_message">Looks like you\'ve read the last article in this magazine. What would you like to do now?</string>
+    <string name="last_article_dialog_ok_button">Share this issue</string>
+    <string name="last_article_dialog_cancel_button">Contents page</string>
+    <string name="last_article_dialog_neutral_button">Do nothing</string>
+    <string name="search_no_items">Sorry, there aren\'t any articles that match your search terms. Try opening a magazine to have its articles indexed by the search.</string>
+    <string name="use_external_storage">use_external_storage</string>
+    <string name="use_external_storage_title">Use external storage</string>
+    <string name="move_directory_progress_title">Moving files...</string>
+    <string name="move_directory_progress_message">Moving your magazine files now. If you\'ve read a lot of magazines this could take a little while.</string>
+    <string name="move_storage_success_dialog_title">Success!</string>
+    <string name="move_storage_success_dialog_message">Your magazines were successfully moved. The app will need to restart now.</string>
+    <string name="move_storage_dialog_ok_button">OK</string>
+    <string name="move_storage_failed_dialog_title">Error!</string>
+    <string name="move_storage_failed_dialog_message">Sorry, something went wrong moving your magazine files. They\'re in their original location.</string>
+    <string name="move_storage_failed_no_space_dialog_title">Error!</string>
+    <string name="move_storage_failed_no_space_dialog_message">Your magazine data couldn\'t be moved because there isn\'t enough space on the destination location.</string>
+    <string name="move_storage_no_external_dialog_title">Sorry...</string>
+    <string name="move_storage_no_external_dialog_message">It doesn\'t look like you have any external storage available on this device.</string>
+    <string name="move_storage_question_dialog_message">Moving your magazine data to another storage option will take some time, and the app will need to restart after it\'s finished. Do you want to continue?</string>
+    <string name="move_storage_question_dialog_title">Move data?</string>
+    <string name="move_storage_dialog_cancel_button">Cancel</string>
+    <string name="gcm_send_message">Token retrieved and sent to server!</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,         sending the fetched token to the server or subscribing to the PubSub topic.</string>
+    <string name="increase_font_size">Bigger font size</string>
+    <string name="decrease_font_size">Smaller font size</string>
+    <string name="default_font_size">Default font size</string>
+    <string name="change_font_size">Change font size</string>
+
+</resources>
